@@ -1,0 +1,32 @@
+.body{
+    margin: 0;
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    border:1px solid black;
+    height: 385px;
+    width: 575px;
+    background-color: #1b244a;
+    color: white;
+}
+
+h3 {
+    text-align: center; /* Center-aligns HOME and GUEST */
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px; /* Adds space between text and scoreboard */
+}
+
+.scoreboard{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 1px solid black;
+    height:120px ;
+    width:155px;
+    background-color:#080001;
+
+}
